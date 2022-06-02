@@ -1,74 +1,66 @@
 {
-  "users": [
+  "heroes": [
     {
-      "id": 1,
-      "first_name": "Justina",
-      "last_name": "Ginglell",
-      "email": "jginglell0@networkadvertising.org",
-      "gender": "Female"
+      "id": "d9de360f-89db-44f9-9762-fde8b365c545",
+      "name": "Чак Норріс",
+      "description": "Все що завгодно!!!",
+      "element": "fire"
     },
     {
-      "id": 2,
-      "first_name": "Marion",
-      "last_name": "Jenman",
-      "email": "mjenman1@surveymonkey.com",
-      "gender": "Male"
+      "id": "b03893db-3f78-4f9e-a243-32d5371881f0",
+      "name": "Володимир Зеленський",
+      "description": "Грати на піаніно ;) і давати прочухана московитам",
+      "element": "water"
     },
     {
-      "id": 3,
-      "first_name": "Alfy",
-      "last_name": "Begin",
-      "email": "abegin2@list-manage.com",
-      "gender": "Female"
+      "id": "a486c723-b677-4bd3-8ffb-1dbe6b0c94d1",
+      "name": "Дон Кіхот",
+      "description": "Що захочу, те і вмію...",
+      "element": "wind"
     },
     {
-      "id": 4,
-      "first_name": "Karney",
-      "last_name": "Zanussii",
-      "email": "kzanussii3@hao123.com",
-      "gender": "Male"
+      "id": "54264289-2b2d-4be2-856f-9708c3424b97",
+      "name": "Руслан Видивник",
+      "description": "Створювати такі чудові app😍",
+      "element": "earth"
     },
     {
-      "id": 5,
-      "first_name": "Reid",
-      "last_name": "Schapero",
-      "email": "rschapero4@timesonline.co.uk",
-      "gender": "Male"
+      "id": "ef4e8280-0bec-4fa1-a593-b311c86dbdf7",
+      "name": "Тестовий Герой",
+      "description": "Добавлятися / Видалятись 😉",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
     },
     {
-      "id": 6,
-      "first_name": "Dorine",
-      "last_name": "Braybrookes",
-      "email": "dbraybrookes5@gov.uk",
-      "gender": "Female"
+      "id": "fire",
+      "name": "fire",
+      "label": "Вогонь",
+      "className": "btn-danger"
     },
     {
-      "id": 7,
-      "first_name": "Sarena",
-      "last_name": "Frape",
-      "email": "sfrape6@alexa.com",
-      "gender": "Female"
+      "id": "water",
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
     },
     {
-      "id": 8,
-      "first_name": "Malva",
-      "last_name": "Pierse",
-      "email": "mpierse7@usda.gov",
-      "gender": "Female"
+      "id": "wind",
+      "name": "wind",
+      "label": "Вітер",
+      "className": "btn-success"
     },
     {
-      "id": 9,
-      "first_name": "Rania",
-      "last_name": "Dablin",
-      "email": "rdablin8@state.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 10,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
+      "id": "earth",
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
     }
   ]
 }
